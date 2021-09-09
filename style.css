@@ -1,0 +1,433 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+    font-family: 'segoe ui';
+    background-color: #A4EBF3;
+  }
+  
+  .nav {
+    height: 60px;
+    width: 100%;
+    position: relative;
+    justify-content: space-around;
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav-logo {
+    display: inline-block;
+    padding: 10px;
+    width: 250px;
+    margin-top: 10px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+
+  .circular{
+      border-radius: 50%;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size:small;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    /* float: left; */
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(28, 32, 34);
+    font-family: Barlow, sans-serif;
+    font-weight: 550;
+    text-transform:capitalize;
+    margin-top: 10px;
+  }
+  
+  .hover:hover {
+    border-bottom: 2px solid rgb(62, 84, 163)
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:600px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(252, 252, 252, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: rgb(228, 201, 201);
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+}
+
+.pro{
+    background-color: rgb(62, 84, 163);
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+    font-family: Heebo, sans-serif;
+    letter-spacing: 2px;
+    line-height: 1;
+    padding: 4px 8px 4px 11px;
+}
+.container1{
+  display: inline-block;
+  margin: 10px 0px 10px 0px;
+}
+
+.welcomediv1{
+  width: 50%;
+  height: 150px;
+  margin-top: 10px;
+  float: left;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.welcomediv2{
+  width: 50%;
+  height: 150px;
+  margin: 0;
+  float: right;
+  font-family: 'Source Sans Pro', sans-serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.welcomediv1 > img{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.welcomediv2 h3{
+  color: rgb(62, 84, 163);
+}
+.intro h1{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: rgb(62, 84, 163);
+
+}
+.welcomeh1{
+  color: rgb(62, 84, 163);
+  text-align: left;
+  /* padding: 5px; */
+  /* margin-left: 0; */
+  line-height: 1.3;
+}
+.welcomeimage{
+  border-radius: 10px;
+}
+.welcomeimagediv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+span{
+  color: rgb(62, 84, 163);
+}
+span:hover{
+  text-shadow: 0 0 2px rgb(100, 99, 99);
+}
+.container2{
+  margin-top: 10px;
+  background-color: #CCF2F4;
+  padding: 6rem 0px 6rem;
+  text-align: center;
+  border-radius: 1rem;
+  color: rgb(0, 0, 0);
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container3{
+  padding: 6rem 0px 6rem;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.procontainer{
+  padding: 6rem 0px 5rem;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.procontainer2{
+  padding: 6rem 0px 6rem;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #CCF2F4;
+  border-radius: 1rem;
+}
+.procontainer3{
+  padding: 3rem 0px 3rem;
+  text-align: center;
+  color: black;
+}
+.procontainer4{
+  padding: 0px 0px 3rem;
+  text-align: center;
+  color: black;
+}
+.container4{
+  /* margin-top: 10px; */
+  background-color: white;
+  padding: 6rem 0px 6rem;
+  text-align: center;
+  border-radius: 1rem;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container4 h2 strong{
+  background-color: #CCF2F4;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+.project-text{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.slack{
+  width: 60%;
+  display: inline-flex;
+}
+/* .slack-button{
+  width: 20%;
+  background-color: blue;
+  border-radius: 10px;
+  color: white;
+  height: 40px;
+} */
+/* .probutton{
+  background-color: rgb(237, 44, 73);
+  color: white;
+  border-radius: 30px;
+  font-family: Barlow, sans-serif;
+  border: 2px solid rgb(237, 44, 73);
+  padding: 1.2rem 5rem;
+  font-style: italic;
+  text-align: center;
+  text-transform: uppercase;
+} */
+/* .menbershipbutton{
+  background-color: rgb(237, 44, 73);
+  color: white;
+  border-radius: 30px;
+  font-family: Barlow, sans-serif;
+  border: 2px solid rgb(237, 44, 73);
+  padding: 5px 1rem;
+  font-style: italic;
+  text-align: center;
+  text-transform: uppercase;
+} */
+/* .menbershipbutton:hover{
+  background-color: rgb(3, 14, 158);
+  color: white;
+  border-radius: 30px;
+  font-family: Barlow, sans-serif;
+  border: 2px solid rgb(3, 14, 158);
+  padding: 5px 1rem;
+  font-style: italic;
+  text-align: center;
+  text-transform: uppercase;
+} */
+.prodiv{
+  background-color:#CCF2F4;
+  border-radius: 10px;
+  padding: 0px 10px 0px 10px;
+}
+#menbershipbutton{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1rem;
+}
+/* .probutton:hover{
+  background-color: rgb(19, 102, 226);
+  color: rgb(249, 249, 250);
+  border-radius: 30px;
+  font-family: Barlow, sans-serif;
+  border: 2px solid rgb(3, 14, 158);
+  padding: 1.2rem 5rem;
+  font-style: italic;
+  text-align: center;
+  text-transform: uppercase;
+} */
+.probutton1{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+footer{
+  color: rgb(255, 255, 255);
+  background-color: black;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+footer a{
+  text-decoration: none;
+}
+.active{
+  border-bottom: 2px solid rgb(62, 84, 163);
+}
+.heebo{
+  font-family:  Heebo, sans-serif;
+}
+.membership li{
+  list-style-type: none;
+}
+.green{
+  color: green;
+}
+.blue{
+  color: rgb(62, 84, 163);
+}
+.red{
+  color: red;
+}
+.lightfont{
+  color: #838a91;
+}
+.bold{
+  font-weight: bold;
+}
+.challengesinside{
+  padding: 10px;
+  border-radius: 10px;
+}
+.margin{
+  margin: 5px;
+}
+.html{
+  font-weight:normal;
+  color: rgb(232, 22, 240);
+}
+.css{
+  font-weight:normal;
+  color: rgb(69, 30, 212);
+}
+.js{
+  font-weight:normal;
+  color: rgb(26, 224, 36);
+}
+.api{
+  font-weight:normal;
+  color: rgb(238, 46, 32);
+}
+.junior{
+  font-weight:normal;
+  color: rgb(12, 207, 233);
+  font-style: italic;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.challengesinside > div > img:hover{
+  border-radius: 10%;
+  padding: 3%;
+  transition:0.5s
+}
+.resourceshover{
+  border-radius: 10%;
+  padding: 3%;
+  transition:0.5s
+}
+.newbie{
+  font-weight:normal;
+  color: rgb(4, 151, 236);
+  font-style: italic;
+}
+.intermediate{
+  font-weight:normal;
+  color: rgb(252, 153, 5);
+  font-style: italic;
+}
+.advance{
+  font-weight:normal;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+}
+.guru{
+  font-weight:normal;
+  color: rgb(247, 2, 2);
+  font-style: italic;
+}
+.para{
+  font-size: small;
+  text-align:right;
+  display: flex;
+  justify-content: space-between;
+}
+.free{
+  font-weight:normal;
+  color:skyblue;
+  font-style: italic;
+}
+.affiliate{
+  font-weight:normal;
+  color:black;
+  font-style: italic;
+}
+.general{
+  font-weight:normal;
+  color: chocolate;
+  font-style: italic;
+}
+.hyperlink{
+  text-decoration: none;
+}

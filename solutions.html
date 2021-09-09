@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Newton School Mini Project">
+    <meta name="keywords" content="HTML, CSS, Mini Project">
+    <meta name="author" content="Saroj Saurabh">
+    <title>Frontend Mentor Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/6c72d49b80.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- header starts here -->
+    <header>
+        <div class="nav">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+              <div class="nav-logo">
+               <a href="index.html"> <img src="images/logo.svg"> </a> 
+              </div>
+            </div>
+            <div class="nav-btn">
+              <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+            </div>
+            
+            <div class="nav-links">
+              <a href="unlockpro.html" class="hover"> Unlock <span class="pro">Pro</span></a>
+              <a href="challenges.html" class="hover">Challenges</a>
+              <a href="solutions.html" class="hover active">Solutions</a>
+              <a href="Resources.html" class="hover">Resources</a>
+              <a href="#" ><img height="25px" src="images/notificationbell.png"></a>
+              <a href="#" ><img height="40px" class="circular" src="images/profile.jpeg"></a>
+            </div>
+        </div>
+    </header>
+    <!-- headrer ends here -->
+
+    <hr>
+
+    <!-- --------------------- section 1 starts here--------------------------------- -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <!-- 1st card starts here -->
+          <div class="col-sm challengesinside">
+            <div class="margin">
+              <img src="images/solution1.jpg" width="100%" height="200px">
+            </div>
+            <div class="margin">
+              <h2 class="heebo">Profile Card Component (Flexbox)</h2>
+              <div class="cards">
+                <span class="html">HTML</span>&nbsp; 
+                <span class="css">CSS</span> &nbsp;
+                <span class="junior">1 NEWBIE</span> <br><br>
+              </div>
+              <div>
+                <a href="#" ><img height="40px" class="circular" src="images/profile.jpeg"></a> &nbsp;&nbsp;
+                <span>Saroj Behera </span> 
+                <div class="para">
+                    <p>Submitted by 6 mins ago<p>  
+                </div>
+            </div>
+              <h6 class="heebo lightfont">Your feedback is priceless! With this challange I had only one issue. For some reason bottom "circle" would stretch the page beyond body borders. Overflow: hidden did not help. The solution was pretty simple (as always:)). Initially I used body element as the container, all I had to do is to add another external div and apply body properties to it. As soon as I've done it.</h6>
+            </div>
+          </div>
+           <!-- 1st card ends here -->
+
+          <!-- 2st card starts here -->
+          <div class="col-sm challengesinside">
+            <div class="margin">
+              <img src="images/solution2.jpg" width="100%" height="200px">
+            </div>
+            <div class="margin">
+              <h2 class="heebo">stats preview card component</h2>
+              <div class="cards">
+                <span class="html">HTML</span>&nbsp; 
+                <span class="css">CSS</span> &nbsp;
+                <span class="newbie">1 NEWBIE</span> <br><br>
+              </div>
+              <div>
+                <a href="#" ><img height="40px" class="circular" src="images/profile.jpeg"></a> &nbsp;&nbsp;
+                <span>Saroj Behera </span><br>
+                <div class="para">
+                    <p>Submitted by 10 mins ago<p>  
+                </div>
+            </div>
+              <h6 class="heebo lightfont">I create this with simple CSS , I would like feedback on my CSS responsiveness skills.</h6>
+            </div>
+          </div>
+          
+           <!-- 2st card ends here -->
+
+           <!-- 3rd card starts here -->
+          <div class="col-sm challengesinside">
+            <div class="margin">
+              <img src="images/solution3.jpg" width="100%" height="200px">
+            </div>
+            <div class="margin">
+              <h2 class="heebo">HTML and CSS sign webpage with a touch of JS</h2>
+              <div class="cards">
+                <span class="html">HTML</span>&nbsp; 
+                <span class="css">CSS</span> &nbsp;
+                <span class="js">JS</span> &nbsp;
+                <span class="intermediate">3 INTERMEDIATE</span> <br><br>
+              </div>
+              <div>
+                <a href="#" ><img height="40px" class="circular" src="images/profile.jpeg"></a> &nbsp;&nbsp;
+                <span>Saroj Behera </span><br>
+                <div class="para">
+                    <p>Submitted by 15 mins ago<p>  
+                </div>
+            </div>
+              <h6 class="heebo lightfont">Had issues with changing the color if the place holder with js, couldnt quite figure it out, help anyone?? also let me know what y'all think about it?</h6>
+            </div>
+          </div>
+          <!-- 3rd card ends here -->
+        </div>
+      </div>
+    </section>
+    <!-- ----------------------------section 1 ends here -------------------------------->
+
+    <!-------------------- section2 starts here ---------------------------->
+    <section>
+      <div class="container">
+        <div class="row">
+          <!-- 3rd card starts here -->
+          <div class="col-sm challengesinside">
+            <div class="margin">
+              <img src="images/SOLUTION11.jpg" width="100%" height="200px">
+            </div>
+            <div class="margin">
+              <h2 class="heebo">article-preview-component-master using CSS Flexbox</h2>
+              <div class="cards">
+                <span class="html">HTML</span>&nbsp; 
+                <span class="css">CSS</span> &nbsp;
+                <span class="js">JS</span> &nbsp;
+              </div>
+              <div>
+                <a href="#" ><img height="40px" class="circular" src="images/profile.jpeg"></a> &nbsp;&nbsp;
+                <span>Saroj Kumar </span><br>
+                <div class="para">
+                    <p>Submitted by 25 mins ago<p>  
+                </div>
+            </div>
+              <h6 class="heebo lightfont">Hello everyone, I have completed this challenge if find issues plz feel free to give feedback.</h6>
+            </div>
+          </div>
+           <!-- 1st card ends here -->
+
+          <!-- 4th card starts here -->
+          <div class="col-sm challengesinside">
+            <div class="margin">
+              <img src="images/solution12.jpg" width="100%" height="200px">
+            </div>
+            <div class="margin">
+              <h2 class="heebo">Profile card component</h2>
+              <div class="cards">
+                <span class="html">HTML</span>&nbsp; 
+                <span class="css">CSS</span> &nbsp;
+                 <br><br>
+              </div>
+              <div>
+                <a href="#" ><img height="40px" class="circular" src="images/profile.jpeg"></a> &nbsp;&nbsp;
+                <span>Saroj Behera </span><br>
+                <div class="para">
+                    <p>Submitted by 45 mins ago<p>  
+                </div>
+            </div>
+              <h6 class="heebo lightfont">I would appreciate some feedback, I kind of brute force this by setting a max-width of 350px.</h6>
+            </div>
+          </div>
+           <!-- 4th card ends here -->
+
+           <!-- 5th card starts here -->
+          <div class="col-sm challengesinside">
+            <div class="margin">
+              <img src="images/solution13.jpg" width="100%" height="200px">
+            </div>
+            <div class="margin">
+              <h2 class="heebo">Responsive testimonials grid using Sass and Bootstrap</h2>
+              <div class="cards">
+                <span class="html">HTML</span>&nbsp; 
+                <span class="css">CSS</span> &nbsp;
+                <br><br>
+              </div>
+              <div>
+                <a href="#" ><img height="40px" class="circular" src="images/profile.jpeg"></a> &nbsp;&nbsp;
+                <span>Saroj Behera </span><br>
+                <div class="para">
+                    <p>Submitted by 50 mins ago<p>  
+                </div>
+            </div>
+              <h6 class="heebo lightfont">I am learning Bootstrap, so i decided to do this project with it. I am looking for best practice methods of using Bootstrap. Any advice is welcome!</h6>
+            </div>
+          </div>
+          <!-- 5th card ends here -->
+        </div>
+      </div>
+    </section>
+    <!-- ----------------------------------section2 ends here --------------------------------->
+
+     <!-------------------- section3 starts here ---------------------------->
+     <section>
+      <div class="container">
+        <div class="row">
+          <!-- 6th card starts here -->
+          <div class="col-sm challengesinside">
+            <div class="margin">
+              <img src="images/solution14.jpg" width="100%" height="200px">
+            </div>
+            <div class="margin">
+              <h2 class="heebo">Mobile-first workflow Room Homepage</h2>
+              <div class="cards">
+                <span class="html">HTML</span>&nbsp; 
+                <span class="css">CSS</span> &nbsp;
+                <span class="js">JS</span> &nbsp;
+               <br><br>
+              </div>
+              <div>
+                <a href="#" ><img height="40px" class="circular" src="images/profile.jpeg"></a> &nbsp;&nbsp;
+                <span>Saroj Behera </span><br>
+                <div class="para">
+                    <p>Submitted by 1 hr ago<p>  
+                </div>
+            </div>
+              <h6 class="heebo lightfont">Pls help me, how to make the page darken when the navbar menu is displayed? like the design?</h6>
+            </div>
+          </div>
+           <!-- 6th card ends here -->
+
+          <!-- 7th card starts here -->
+          <div class="col-sm challengesinside">
+            <div class="margin">
+              <img src="images/solution15.jpg" width="100%" height="200px">
+            </div>
+            <div class="margin">
+              <h2 class="heebo">Flexbox</h2>
+              <div class="cards">
+                <span class="html">HTML</span>&nbsp; 
+                <span class="css">CSS</span> &nbsp;
+                <br><br>
+              </div>
+              <div>
+                <a href="#" ><img height="40px" class="circular" src="images/profile.jpeg"></a> &nbsp;&nbsp;
+                <span>Saroj Behera </span><br>
+                <div class="para">
+                    <p>Submitted by 1.5 hrs ago<p>  
+                </div>
+            </div>
+              <h6 class="heebo lightfont">what else can I do to improve my code?</h6>
+            </div>
+          </div>
+           <!-- 7th card ends here -->
+
+           <!-- 8th card starts here -->
+          <div class="col-sm challengesinside">
+            <div class="margin">
+              <img src="images/challenge10.jpg" width="100%" height="200px">
+            </div>
+            <div class="margin">
+              <h2 class="heebo">Audiophile e-commerce website</h2>
+              <div class="cards">
+                <span class="html">HTML</span>&nbsp; 
+                <span class="css">CSS</span> &nbsp;
+                <span class="js">JS</span> &nbsp;
+                <span class="guru">5 GURU</span> <br><br>
+              </div>
+              <div>
+                <a href="#" ><img height="40px" class="circular" src="images/profile.jpeg"></a> &nbsp;&nbsp;
+                <span>Saroj Behera </span><br>
+                <div class="para">
+                    <p>Submitted by 2 hrs ago<p>  
+                </div>
+            </div>
+              <h6 class="heebo lightfont">This huge e-commerce challenge will provide an incredible test for your front-end skills. Once you're done, you'll have an amazing project to add to your portfolio!</h6>
+            </div>
+          </div>
+          <!-- 8th card ends here -->
+        </div>
+      </div>
+    </section>
+    <!-- ----------------------------------section3 ends here --------------------------------->
+
+     <!-- --------------------- section 4 starts here--------------------------------- -->
+     <section>
+      <div class="container">
+        <div class="row">
+          <!--  card starts here -->
+          <div class="col-sm challengesinside">
+            <div class="margin">
+              <img src="images/challenge1.jpg" width="100%" height="200px">
+            </div>
+            <div class="margin">
+              <h2 class="heebo">GitHub user search app</h2>
+              <div class="cards">
+                <span class="html">HTML</span>&nbsp; 
+                <span class="css">CSS</span> &nbsp;
+                <span class="js">JS</span> &nbsp;
+                <span class="api">API</span> 
+                <span class="junior">2 JUNIOR</span> <br><br>
+              </div>
+              <div>
+                <a href="#" ><img height="40px" class="circular" src="images/profile.jpeg"></a> &nbsp;&nbsp;
+                <span>Saroj Behera </span><br>
+                <div class="para">
+                    <p>Submitted by 3 hrs ago<p>  
+                </div>
+            </div>
+              <h6 class="heebo lightfont">In this project, you'll use the GitHub users API to pull profile data and display it. It's a great challenge if you're looking to practice working with a 3rd-party API.</h6>
+            </div>
+          </div>
+           <!--  card ends here -->
+
+          <!--  card starts here -->
+          <div class="col-sm challengesinside">
+            <div class="margin">
+              <img src="images/challenge2.jpg" width="100%" height="200px">
+            </div>
+            <div class="margin">
+              <h2 class="heebo">Order sum component</h2>
+              <div class="cards">
+                <span class="html">HTML</span>&nbsp; 
+                <span class="css">CSS</span> &nbsp;
+                <span class="newbie">1 NEWBIE</span> <br><br>
+              </div>
+              <div>
+                <a href="#" ><img height="40px" class="circular" src="images/profile.jpeg"></a> &nbsp;&nbsp;
+                <span>Saroj Behera </span><br>
+                <div class="para">
+                    <p>Submitted by 4 hrs ago<p>  
+                </div>
+            </div>
+              <h6 class="heebo lightfont">A perfect project for newbies who are starting to build confidence with layouts!</h6>
+            </div>
+          </div>
+           <!--  card ends here -->
+
+           <!--  card starts here -->
+          <div class="col-sm challengesinside">
+            <div class="margin">
+              <img src="images/challenge3.jpg" width="100%" height="200px">
+            </div>
+            <div class="margin">
+              <h2 class="heebo">Galleria slideshow site</h2>
+              <div class="cards">
+                <span class="html">HTML</span>&nbsp; 
+                <span class="css">CSS</span> &nbsp;
+                <span class="js">JS</span> &nbsp;
+                <span class="intermediate">3 INTERMEDIATE</span> <br><br>
+              </div>
+              <div>
+                <a href="#" ><img height="40px" class="circular" src="images/profile.jpeg"></a> &nbsp;&nbsp;
+                <span>Saroj Behera </span><br>
+                <div class="para">
+                    <p>Submitted by 5 hrs ago<p>  
+                </div>
+            </div>
+              <h6 class="heebo lightfont">This art gallery slideshow project will be a great test for your layout and JS skills. With the masonry layout, slideshow logic, and lightbox view there's a lot to build!</h6>
+            </div>
+          </div>
+          <!--  card ends here -->
+        </div>
+      </div>
+    </section>
+    <!-- ----------------------------section 4 ends here -------------------------------->
+
+     <!-------------------- section 5starts here ---------------------------->
+     <section>
+      <div class="container">
+        <div class="row">
+          <!--  card starts here -->
+          <div class="col-sm challengesinside">
+            <div class="margin">
+              <img src="images/challenge4.jpg" width="100%" height="200px">
+            </div>
+            <div class="margin">
+              <h2 class="heebo">Tip calculator app</h2>
+              <div class="cards">
+                <span class="html">HTML</span>&nbsp; 
+                <span class="css">CSS</span> &nbsp;
+                <span class="js">JS</span> &nbsp;
+                <span class="junior">2 JUNIOR</span> <br><br>
+              </div>
+              <div>
+                <a href="#" ><img height="40px" class="circular" src="images/profile.jpeg"></a> &nbsp;&nbsp;
+                <span>Saroj Behera </span><br>
+                <div class="para">
+                    <p>Submitted by 10 hrs ago<p>  
+                </div>
+            </div>
+              <h6 class="heebo lightfont">This small app is perfect for anyone starting to get to grips with JavaScript. The calculator functionality will be a nice test!</h6>
+            </div>
+          </div>
+           <!--  card ends here -->
+
+          <!--  card starts here -->
+          <div class="col-sm challengesinside">
+            <div class="margin">
+              <img src="images/challenge5.jpg" width="100%" height="200px">
+            </div>
+            <div class="margin">
+              <h2 class="heebo">Product feedback app</h2>
+              <div class="cards">
+                <span class="html">HTML</span>&nbsp; 
+                <span class="css">CSS</span> &nbsp;
+                <span class="js">JS</span> &nbsp;
+                <span class="advance">4 ADVANCED</span> <br><br>
+              </div>
+              <div>
+                <a href="#" ><img height="40px" class="circular" src="images/profile.jpeg"></a> &nbsp;&nbsp;
+                <span>Saroj Behera </span><br>
+                <div class="para">
+                    <p>Submitted by 1 day ago<p>  
+                </div>
+              </div>
+              <h6 class="heebo lightfont">This will be a perfect portfolio piece! You'll be working with JSON, managing state, and building like a real-world app. You can even create it as a full-stack project!</h6>
+            </div>
+          </div>
+           <!--  card ends here -->
+
+           <!--  card starts here -->
+          <div class="col-sm challengesinside">
+            <div class="margin">
+              <img src="images/challenge6.jpg" width="100%" height="200px">
+            </div>
+            <div class="margin">
+              <h2 class="heebo">Sunnyside agency landing page</h2>
+              <div class="cards">
+                <span class="html">HTML</span>&nbsp; 
+                <span class="css">CSS</span> &nbsp;
+                <span class="js">JS</span> &nbsp;
+                <span class="junior">2 JUNIOR</span> <br><br>
+              </div>
+              <div>
+                <a href="#" ><img height="40px" class="circular" src="images/profile.jpeg"></a> &nbsp;&nbsp;
+                <span>Saroj Behera </span><br>
+                <div class="para">
+                    <p>Submitted by 2 days ago<p>  
+                </div>
+            </div>
+              <h6 class="heebo lightfont">This challenge will be a perfect test of your layout and responsive skills. There's a tiny bit of JS for the mobile menu, but the focus is HTML & CSS.</h6>
+            </div>
+          </div>
+          <!--  card ends here -->
+        </div>
+      </div>
+    </section>
+    <!-- ----------------------------------section5 ends here --------------------------------->
+
+    <!-- slack section  -->
+    <section>
+      <div class="container2">
+        <img src="images/slack.svg" height="50px">
+        <h3><strong> Join Our Slack Community </strong></h3>
+        <h2>Join over 50,000 people taking the challenges, talking about their <code> code</code>, helping each other, and chatting about all things <code> front-end!</code></h2>
+        <form>
+          <div class="form-group slack">
+            <input type="email" class="form-control" placeholder="Enter email">
+          </div> &nbsp; &nbsp;
+          <button class="btn btn-info">Request Invite</button>
+        </form>
+      </div>
+    </section>
+    <!-- slack section end -->
+
+   <!-- ------------newsletter section starts here ------------------>
+   <section>
+    <div class="container4">
+      <h2 style="color: rgb(45 43 43);"><strong> Subscribe to our newsletter </strong></h2> <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h3>
+              Stay up-to-date with new challenges, featured solutions, selected articles and Frontend Mentor latest news
+            </h3>
+            <input type="checkbox"> I am happy for Frontend Mentor to contact me by email
+            <form>
+              <div class="form-group slack">
+                <input type="email" class="form-control" placeholder="Enter email">
+              </div> &nbsp; &nbsp;
+              <button class="btn btn-info">Subscribe</button>
+            </form>
+          </div>
+          <div class="col-sm">
+            <img src="images/news.svg" height="200px">
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+   <!-- ------------newsletter section ends here ------------------>
+
+
+    <!-- footer starts here -->
+    <footer>
+      © Frontend Mentor 2021 made with <i class="fas fa-heart red"></i>@Saroj <a href="https://www.linkedin.com/in/sarojvrc/" target="_new"> <i class="fab fa-linkedin"></i></a>
+      <a href="https://twitter.com/iamsarojb" target="_new"> <i class="fab fa-twitter"></i></a>
+      <a href="https://github.com/sarojvrc" target="_new"> <i class="fab fa-github"></i></a>
+    </footer>
+    
+    <!-- footer ends here -->
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>

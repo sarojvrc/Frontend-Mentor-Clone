@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Newton School Mini Project">
+    <meta name="keywords" content="HTML, CSS, Mini Project">
+    <meta name="author" content="Saroj Kumar Behera">
+    <title>Frontend Mentor Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6c72d49b80.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- header starts here -->
+    <header>
+        <div class="nav">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+              <div class="nav-logo">
+               <a href="index.html"> <img src="images/logo.svg"> </a> 
+              </div>
+            </div>
+            <div class="nav-btn">
+              <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+            </div>
+            
+            <div class="nav-links">
+              <a href="unlockpro.html" class="hover"> Unlock <span class="pro">Pro</span></a>
+              <a href="challenges.html" class="hover">Challenges</a>
+              <a href="solutions.html" class="hover">Solutions</a>
+              <a href="Resources.html" class="hover">Resources</a>
+              <a href="#" ><img height="25px" src="images/notificationbell.png"></a>
+              <a href="#" ><img height="40px" class="circular" src="images/profile.jpeg"></a>
+            </div>
+        </div>
+    </header>
+    <!-- headrer ends here -->
+    <hr>
+
+    <!-- intro section starts here -->
+    <!-- <section class="intro">
+      <div class="container1">
+        <h1 style="text-align: center;">Welcome to Frontend Mentor</h1>
+        <div>
+          <div class="welcomediv1">
+            <img src="images/welcome.svg" > 
+          </div>
+          <div class="welcomediv2">
+            <h3>
+              Where <code> Developer</code> meets with <code> Creativity</code>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- section 1 ends here -->
+
+    <!-- welcome section -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h1 class="welcomeh1">
+              Improve your front-end <code> coding</code> skills by building real projects
+            </h1>
+            <!-- <p>
+              Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs. Join 211,974 developers building projects, reviewing code, and helping each other get better.
+            </p> -->
+            <div class="probutton1">
+              <button class="btn btn-info" onclick="location.href='#'"><i class="fab fa-github"></i> Login with GitHub</button>
+          </div>
+          </div>
+          <div class="col-6 welcomeimagediv">
+            <img src="images/welcomepage.jpeg" class="welcomeimage" width="100%" height="auto">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- welcome section end -->
+    
+    <!-- section 2 starts here -->
+    <section>
+      <div class="container2">
+        <h1>Want to explore more awesome designs</h1>
+          <button class="btn btn-info btn-lg" onclick="location.href='challenges.html'" type="button">Accept the Challenges</button>
+      </div>
+    </section>
+    <!-- section 2 ends here -->
+
+    <!-- section3 starts here -->
+    <section>
+      <div class="container3">
+        <h1>Explore even more designs with priority support</h1>
+          <button class="btn btn-info btn-lg" onclick="location.href='unlockpro.html'" type="button">Unlock Pro Now</button>
+      </div>
+    </section>
+    <!-- section3 ends here -->
+
+    <!-- section3 starts here -->
+    <section>
+      <div class="container2">
+        <img src="images/slack.svg" height="50px">
+        <h3><strong> Join Our Slack Community </strong></h3>
+        <h4>Join over 50,000 people taking the challenges, talking about their <code> code</code>, helping each other, and chatting about all things <code> front-end!</code></h4>
+        <form>
+          <div class="form-group slack">
+            <input type="email" class="form-control" placeholder="Enter email">
+          </div> &nbsp; &nbsp;
+          <button class="btn btn-info">Request Invite</button>
+        </form>
+      </div>
+    </section>
+    <!-- section3 ends here -->
+
+    <!-- section4 starts here -->
+    <section>
+      <div class="container4">
+        <h2 style="color: rgb(45 43 43);"><strong> Subscribe to our newsletter </strong></h2> <br>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <h3>
+                Stay up-to-date with new challenges, featured solutions, selected articles and Frontend Mentor latest news
+              </h3>
+              <input type="checkbox"> I am happy for Frontend Mentor to contact me by email
+              <form>
+                <div class="form-group slack">
+                  <input type="email" class="form-control" placeholder="Enter email">
+                </div> &nbsp; &nbsp;
+                <button class="btn btn-info">Subscribe</button>
+              </form>
+            </div>
+            <div class="col-sm">
+              <img src="images/news.svg" height="200px">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- section4 ends here -->
+
+    <!-- footer starts here -->
+    <footer>
+      © Frontend Mentor 2021 made with <i class="fas fa-heart red"></i>@Saroj <a href="https://www.linkedin.com/in/sarojvrc/" target="_new"> <i class="fab fa-linkedin"></i></a>
+      <a href="https://twitter.com/iamsarojb" target="_new"> <i class="fab fa-twitter"></i></a>
+      <a href="https://github.com/sarojvrc" target="_new"> <i class="fab fa-github"></i></a>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
