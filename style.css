@@ -53,7 +53,7 @@
   }
   
   .hover:hover {
-    border-bottom: 2px solid rgb(62, 84, 163)
+    border-bottom: 2px solid #0d6efd
   }
   
   .nav > #nav-check {
@@ -107,7 +107,7 @@
 }
 
 .pro{
-    background-color: rgb(62, 84, 163);
+    background-color: #0d6efd;
     border-radius: 2px;
     color: rgb(255, 255, 255);
     font-family: Heebo, sans-serif;
@@ -148,15 +148,15 @@
   height: 100%;
 }
 .welcomediv2 h3{
-  color: rgb(62, 84, 163);
+  color: #0d6efd;
 }
 .intro h1{
   font-family: 'Source Sans Pro', sans-serif;
-  color: rgb(62, 84, 163);
+  color: #0d6efd;
 
 }
 .welcomeh1{
-  color: rgb(62, 84, 163);
+  color: #0d6efd;
   text-align: left;
   /* padding: 5px; */
   /* margin-left: 0; */
@@ -173,7 +173,7 @@
   text-align: center;
 }
 span{
-  color: rgb(62, 84, 163);
+  color: #0d6efd;
 }
 span:hover{
   text-shadow: 0 0 2px rgb(100, 99, 99);
@@ -212,6 +212,9 @@ span:hover{
   text-align: center;
   color: black;
 }
+.welcomesec{
+  padding: 4rem 0px 5rem 0px;
+}
 .procontainer4{
   padding: 0px 0px 3rem;
   text-align: center;
@@ -239,49 +242,9 @@ span:hover{
 }
 
 .slack{
-  width: 60%;
+  width: 30%;
   display: inline-flex;
 }
-/* .slack-button{
-  width: 20%;
-  background-color: blue;
-  border-radius: 10px;
-  color: white;
-  height: 40px;
-} */
-/* .probutton{
-  background-color: rgb(237, 44, 73);
-  color: white;
-  border-radius: 30px;
-  font-family: Barlow, sans-serif;
-  border: 2px solid rgb(237, 44, 73);
-  padding: 1.2rem 5rem;
-  font-style: italic;
-  text-align: center;
-  text-transform: uppercase;
-} */
-/* .menbershipbutton{
-  background-color: rgb(237, 44, 73);
-  color: white;
-  border-radius: 30px;
-  font-family: Barlow, sans-serif;
-  border: 2px solid rgb(237, 44, 73);
-  padding: 5px 1rem;
-  font-style: italic;
-  text-align: center;
-  text-transform: uppercase;
-} */
-/* .menbershipbutton:hover{
-  background-color: rgb(3, 14, 158);
-  color: white;
-  border-radius: 30px;
-  font-family: Barlow, sans-serif;
-  border: 2px solid rgb(3, 14, 158);
-  padding: 5px 1rem;
-  font-style: italic;
-  text-align: center;
-  text-transform: uppercase;
-} */
 .prodiv{
   background-color:#CCF2F4;
   border-radius: 10px;
@@ -293,21 +256,16 @@ span:hover{
   text-align: center;
   margin-top: 1rem;
 }
-/* .probutton:hover{
-  background-color: rgb(19, 102, 226);
-  color: rgb(249, 249, 250);
-  border-radius: 30px;
-  font-family: Barlow, sans-serif;
-  border: 2px solid rgb(3, 14, 158);
-  padding: 1.2rem 5rem;
-  font-style: italic;
-  text-align: center;
-  text-transform: uppercase;
-} */
+
 .probutton1{
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+.welcomebutton{
+  align-items: center;
+  justify-content: center;
+  text-align: start;
 }
 footer{
   color: rgb(255, 255, 255);
@@ -321,7 +279,7 @@ footer a{
   text-decoration: none;
 }
 .active{
-  border-bottom: 2px solid rgb(62, 84, 163);
+  border-bottom: 2px solid #0d6efd;
 }
 .heebo{
   font-family:  Heebo, sans-serif;
@@ -333,7 +291,7 @@ footer a{
   color: green;
 }
 .blue{
-  color: rgb(62, 84, 163);
+  color: #0d6efd;
 }
 .red{
   color: red;
@@ -357,7 +315,7 @@ footer a{
 }
 .css{
   font-weight:normal;
-  color: rgb(69, 30, 212);
+  color: rgb(14, 235, 179);
 }
 .js{
   font-weight:normal;
